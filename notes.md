@@ -1,4 +1,4 @@
-Backend Logic
+BACKEND LOGIC
 
 Knex + SQLite for quick schema and query building.
 
@@ -8,7 +8,7 @@ Modular routes for /tasks and /insights.
 
 Insight logic calculates totals, groupings, and summaries.
 
-Frontend Architecture
+FRONTEND ARCHITECTURE
 
 App.js → orchestrates data fetch and filters.
 
@@ -18,7 +18,7 @@ TaskList.js → display and update tasks inline.
 
 InsightsPanel.js → render analytical summary.
 
-Insight Logic
+INSIGHT LOGIC
 
 Uses rule-based aggregation (no AI):
 
@@ -30,7 +30,7 @@ Detects busiest day based on due_date grouping.
 
 Generates a short natural-language summary.
 
-Improvements & Ideas
+IMPROVEMENTS AND IDEAS
 
 Add user authentication and task ownership.
 
